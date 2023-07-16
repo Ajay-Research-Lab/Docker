@@ -10,3 +10,11 @@ This is a repository of our Docker image for softwares used in our labs. The lis
 ## For Intel processors
 
 ### Version 1.0.0
+
+## User manual
+
+For more information on how to use this docker images, please check [User manual for Mac](https://github.com/Ajay-Research-Lab/Docker/blob/main/README-macOS.md). Windows helpfile coming soon.
+
+## Developer manual
+
+Coming soon
