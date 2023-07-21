@@ -1,3 +1,5 @@
+# About this image
+
 
 ## Run the docker image
 
@@ -29,4 +31,5 @@ A <code>rundocker.sh</code> script is created. Since we are using a Mac M1/M2 pr
 <code>docker run -it -p 8888:8888 -v "$\{localfolder\}":$\{hostfolder\} $\{appname\}</code>
 
 ### Install pre-requisites
-Once the container is ready, we need to install the pre-requisites to install OpenFOAM.
+Once the container is ready, we need to install the pre-requisites to install OpenFOAM. Start by updating the system using `apt update`. Following this, get the necessary OpenFOAM dependencies using the paraview development package. Note that this could take a while to install depending on the internet connection. Use the command
+<code>sudo apt install paraview-dev</code>
