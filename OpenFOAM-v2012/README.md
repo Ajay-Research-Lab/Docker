@@ -9,11 +9,7 @@ In this section, we have documented the steps used to create these docker image 
 
 ### Get the base docker image
 
-For the purpose of the development of the docker image for OpenFOAM v2012, we are using the base [Ubuntu image](https://hub.docker.com/_/ubuntu/tags) with the tag *mantic-20230712*. Get the docker image using the command
-
-<code>
-docker pull ubuntu:mantic-20230712
-</code>
+For the purpose of the development of the docker image for OpenFOAM v2012, we are using the base [Ubuntu image](https://hub.docker.com/_/ubuntu/tags) with the tag *mantic-20230712*. Get the docker image using the command <code>docker pull ubuntu:mantic-20230712</code>.
 
 ### Run the docker image
 
