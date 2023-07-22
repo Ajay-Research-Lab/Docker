@@ -1,6 +1,6 @@
 # About this image
 
-The lab has transitioned to use v2306 version of OpenFOAM from OpenCFD. More information on creating (for developers) and running (for users) has been outlined below. To start with, we have considered the base image from OpenCFD and we aim to add to this image and version of OpenFOAM.
+The lab has transitioned to use v2306 version of OpenFOAM from OpenCFD. More information on creating (for developers) and running (for users) has been outlined below. To start with, we have considered the base image from OpenCFD and we aim to add to this image and version of OpenFOAM. The version changes are given below.
 
 ## Run the docker image (v2306)
 
@@ -19,3 +19,11 @@ For the purpose of the development of the docker image for OpenFOAM v2306, we ar
 ### Create a version for Ajay Research Lab
 
 The current version (1.0.0) is just obtained from renaming the docker image using the `tag` command as <code>docker tag opencfd/openfoam-run:2306 ajaylab/openfoam-2306-arm:1.0.0</code>. This creates an image for the arm processors. We aim to release versions for other processors as well soon and add other lab related developments to this docker image as well.
+
+## Versions
+
+### 0.0.2
+- Coming soon
+
+### 0.0.1
+- Includes the base image only
