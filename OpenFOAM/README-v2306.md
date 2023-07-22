@@ -30,11 +30,11 @@ For the purpose of the development of the docker image for OpenFOAM v2306, we ar
 
 ### Create a version for Ajay Research Lab
 
-The current version (1.0.0) is just obtained from renaming the docker image using the `tag` command as <code>docker tag opencfd/openfoam-run:2306 ajaylab/openfoam-2306-arm:1.0.0</code>. This creates an image for the arm processors. We aim to release versions for other processors as well soon and add other lab related developments to this docker image as well.
+The current version (1.0.0) is just obtained from renaming the docker image using the `tag` command as <code>docker tag opencfd/openfoam-run:2306 ajaylab/openfoam-2306:1.0.0</code>. This creates an image for the arm processors. We aim to release versions for other processors as well soon and add other lab related developments to this docker image as well.
 
 ### Save docker image for upload to zenodo
 
-You can save the docker image into a tar.gz file using gzip as <code>docker save ajaylab/openfoam-2306-arm:1.0.0 | gzip > openfoam-2306-arm-v100.tar.gz</code>. Replace the version number `1.0.0` with the appropriate version of your choice.
+You can save the docker image into a tar.gz file using gzip as <code>docker save ajaylab/openfoam-2306:1.0.0 | gzip > openfoam-2306-v100.tar.gz</code>. Replace the version number `1.0.0` with the appropriate version of your choice.
 
 ## Versions
 
