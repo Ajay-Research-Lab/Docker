@@ -11,13 +11,13 @@ We have modified the script from OpenCFD and provided it as <code>openfoam-docke
 - Open the terminal in the mac
 - Provide execution permissions to the script using <code>chmod +x openfoam-docker-v2306-100</code>
 - Run the script to start OpenFOAM v2306 using the command <code>./openfoam-docker-v2306-100</code>
-- The script will automatically download the image from the dockerhub ([ajaylab/openfoam-2306-arm](https://hub.docker.com/r/ajaylab/openfoam-2306-arm))
+- The script will automatically download the image from the dockerhub ([ajaylab/openfoam-2306](https://hub.docker.com/r/ajaylab/openfoam-2306))
 
 Alternatively, the Docker image can also be obtained from Zenodo ([OpenFOAM v2306](https://zenodo.org/deposit/8174056)). This would also provide a docker image alonand can be loaded.
 - Unzip the tar.gz file
 - Start the dockerhub desktop client
 - Open the terminal in the mac
-- Load the image using <code>docker load < openfoam-2306-arm-v100.tar.gz</code>
+- Load the image using <code>docker load < openfoam-2306-v100.tar.gz</code>
 - Provide execution permissions to the script using <code>chmod +x openfoam-docker-v2306-100</code>
 - Run the script to start OpenFOAM v2306 using the command <code>./openfoam-docker-v2306-100</code>
 
