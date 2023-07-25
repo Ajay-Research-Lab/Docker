@@ -4,3 +4,5 @@ This is a repository of our Docker image for softwares used in our labs. The lis
 The images include
 - OpenFOAM
   - OpenFOAM v2306 (Mac Silicon)
+- Python
+  - Python 3.11 (Mac Silicon) + packages (listed in requirements.txt)
