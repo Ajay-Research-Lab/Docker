@@ -16,7 +16,7 @@ We have prepared a script <code>python-docker-v311-100</code> to enable users to
 - The script will automatically download the image from the dockerhub ([ajaylab/python-311](https://hub.docker.com/r/ajaylab/python-311))
 
 ### Get from Zenodo
-Alternatively, the Docker image can also be obtained from Zenodo ([Python v311](https://to-be-decided)). This would also provide a docker image that can be loaded.
+Alternatively, the Docker image can also be obtained from Zenodo ([Python v311](https://zenodo.org/deposit/8180729)). This would also provide a docker image that can be loaded.
 - Unzip the tar.gz file
 - Start the dockerhub desktop client
 - Open the terminal in the mac
