@@ -11,7 +11,7 @@ yes | apt install python3-pip
 echo "alias python='python3.11'" >> ~/.bash_aliases
 
 # Pip install virtualenv
-# pip install virtualenv --break-system-packages
+pip install virtualenv --break-system-packages
 
 # Create a folder for virtual environment folder
 cd /usr
