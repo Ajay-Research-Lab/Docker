@@ -16,7 +16,7 @@ The scripts outlined below are given in the folder *User*
 
 Here are a list of commands and scripts that are related to the images.
 
-- Get list of images
+**Get list of images**
 
 `docker image ls`
 
@@ -28,7 +28,7 @@ Here are a list of commands and scripts that are related to the images.
 
 `./load_image.sh`
 
-**Remove an image from local dockerHub**
+**Remove an image from local dockerHub** (Any containers need to be removed before the image can be deleted)
 
 `./remove_image.sh`
 
