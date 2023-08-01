@@ -1,5 +1,7 @@
 # Docker Cheat sheet
 
+The scripts outlined below are given in the folder *Developer*. 
+
 **Get version of docker**
 
 <pre>

@@ -1,5 +1,7 @@
 # Docker Cheat sheet
 
+The scripts outlined below are given in the folder *User*
+
 ## General docker related commands
 **Get version of docker**
 

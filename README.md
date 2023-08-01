@@ -8,24 +8,15 @@ This provides the docker image for Python 3.11. The list of Python packages inst
 
 ## OpenFoam v2306
 
+To be updated soon.
+
 ## C++
+
+To be updated soon.
 
 ## Cheat sheet
 
-**Get version of docker**
+This has been created to assist the members of the lab to use Docker effectively. We are happy to help if you would like to adapt for your usage.
 
-<pre>
-docker -- version
-</pre>
-
-**Get version of docker**
-
-`docker -- version`
-
-**Get help**
-
-`docker container --help`
-
-**Get list of images**
-
-`docker image ls`
+- User help documentation is available in *UserHelp.md* and the related scripts are in the *User* folder.
+- Developer help documentation is available in *DeveloperHelp.md* and the related scripts are in the *Developer* folder.
