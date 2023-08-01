@@ -3,9 +3,6 @@
 The scripts outlined below are given in the folder *User*
 
 ## General docker related commands
-**Get version of docker**
-
-`docker -- version`
 
 **Get version of docker**
 
@@ -19,23 +16,27 @@ The scripts outlined below are given in the folder *User*
 
 Here are a list of commands and scripts that are related to the images.
 
-### Get list of images
+- Get list of images
 
 `docker image ls`
 
-### To get a copy of an image from docker hub
+**To get a copy of an image from docker hub**
 
 `./get_image.sh`
 
-### Load the image from a zip file
+**Load the image from a zip file**
 
 `./load_image.sh`
+
+**Remove an image from local dockerHub**
+
+`./remove_image.sh`
 
 ## Container related commands
 
 Here are a list of commands and scripts that are related to the containers.
 
-### Get list of containers
+**Get list of containers**
 
 `docker container ls --all` or `docker ps`
 
@@ -51,8 +52,10 @@ Here are a list of commands and scripts that are related to the containers.
 
 `./run_interactively.sh`
 
-**Remove a container**
+**Remove an exited container**
 
+`./remove_container.sh`
 
+**Remove all exited container**
 
-
+`docker container prune`
