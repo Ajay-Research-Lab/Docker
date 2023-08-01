@@ -15,5 +15,17 @@ This provides the docker image for Python 3.11. The list of Python packages inst
 **Get version of docker**
 
 <pre>
-Test Line
+docker -- version
 </pre>
+
+**Get version of docker**
+
+`docker -- version`
+
+**Get help**
+
+`docker container --help`
+
+**Get list of images**
+
+`docker image ls`
