@@ -12,4 +12,4 @@ appname=ajaylab/cpp
 hostfolder=/home
 
 # Command to run
-docker run -it -p 8888:8888 -v "${localfolder}":${hostfolder} ${appname}:${version}
+docker run -it -p 8888:8888 -v "${localfolder}":${hostfolder} --rm ${appname}:${version}
