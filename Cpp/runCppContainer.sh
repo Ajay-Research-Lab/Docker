@@ -1,12 +1,14 @@
-# This is the app name
-appname=ajaylab/cpp
+# Version of the image to run
 version=latest
 
 # Local folder is set to current folder
 localfolder=${PWD}
 
 # DO NOT CHANGE ITEMS BELOW
-# Host folder inside Jupyter
+# This is the app name
+appname=ajaylab/cpp
+
+# Host folder inside the image
 hostfolder=/home
 
 # Command to run
