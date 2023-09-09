@@ -7,7 +7,7 @@ For more information about our research, please feel free to check our website w
 
 ## C++
 
-To be updated soon.
+The image is available through dockerhub (https://hub.docker.com/repository/docker/ajaylab/cpp). The `Cpp` folder contains the information about this image and also the instructions to run this image.
 
 ## Docker Python
 This provides the docker image for Python 3.11. The list of Python packages installed in this are provided in the below repository. 
