@@ -14,14 +14,5 @@ RUN apt update && \
     gdb duf \ 
     && apt clean
 
-
-# RUN apt update
-# RUN apt install -y git
-# RUN apt install -y build-essential
-# RUN apt install -y g++
-# RUN apt install -y vim 
-# RUN apt install -y gdb
-# RUN apt install -y duf
-
 # Open up bash command for usage
 CMD ["bash"]
