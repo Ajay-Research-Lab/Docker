@@ -1,5 +1,5 @@
 # Base ubuntu image
-FROM ubuntu:kinetic-20220602
+FROM ubuntu:22.04
 
 # Set the environment to root
 ENV HOME="/home"
@@ -7,21 +7,19 @@ ENV HOME="/home"
 # Set work directory
 WORKDIR ${HOME}
 
-# Install git and download the pyenv repository
-RUN apt update && \
-    apt install -y \
-    python3.10 \
-    python3-pip \
-    && apt clean
+# Update the package repository and install required packages
+RUN apt-get update && \
+    apt-get install -y python3-pip && \
+    apt-get clean
 
-# Create a symbolic link from python to python3
-RUN ln -s /usr/bin/python3 /usr/bin/python
+# Add alias for python = python3
+RUN echo "alias python='python3.10'" >> ~/.bash_aliases
+RUN . ~/.bashrc
 
-# Copy the requirements file into the container
+# Run the requirements.txt to install packages
 COPY requirements.txt /home/requirements.txt
+RUN pip install -r /home/requirements.txt
 
-# Install Python dependencies
-RUN pip3 install --no-cache-dir -r requirements.txt
-
-# Expose port 8888 for Jupyter Notebook
-EXPOSE 8888
+# Add command for jupyter notebook
+RUN echo "alias run-jupyter='jupyter-notebook --allow-root --ip=0.0.0.0'" >> ~/.bash_aliases
+RUN . ~/.bashrc

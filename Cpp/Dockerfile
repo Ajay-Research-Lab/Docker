@@ -1,5 +1,5 @@
 # Base ubuntu image
-FROM ubuntu:kinetic-20220602
+FROM ubuntu:22.04
 
 # Set the environment to root
 ENV HOME="/home"
