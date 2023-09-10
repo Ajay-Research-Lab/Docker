@@ -10,9 +10,18 @@ WORKDIR ${HOME}
 # Install git and download the pyenv repository
 RUN apt update && \
     apt install -y \
-    git build-essential g++ vim \
-    gdb duf \ 
+    python3.10 \
+    python3-pip \
     && apt clean
 
-# Open up bash command for usage
-CMD ["bash"]
+# Create a symbolic link from python to python3
+RUN ln -s /usr/bin/python3 /usr/bin/python
+
+# Copy the requirements file into the container
+COPY requirements.txt /home/requirements.txt
+
+# Install Python dependencies
+RUN pip3 install --no-cache-dir -r requirements.txt
+
+# Expose port 8888 for Jupyter Notebook
+EXPOSE 8888
