@@ -1,12 +1,6 @@
 # Base ubuntu image
 FROM ubuntu:22.04
 
-# Set the environment to root
-ENV HOME="/home"
-
-# Set work directory
-WORKDIR ${HOME}
-
 # Update the package repository and install required packages
 RUN apt-get update && \
     apt-get install -y python3-pip && \
@@ -23,3 +17,9 @@ RUN pip install -r /home/requirements.txt
 # Add command for jupyter notebook
 RUN echo "alias run-jupyter='jupyter-notebook --allow-root --ip=0.0.0.0'" >> ~/.bash_aliases
 RUN . ~/.bashrc
+
+# Set the environment to root
+ENV HOME="/home"
+
+# Set work directory
+WORKDIR ${HOME}
