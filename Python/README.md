@@ -13,6 +13,9 @@ This file contains all the python modules that have been installed and the versi
 ## Run the image
 A run script has been provided to help easily start the image. More instructions have been provided below for different OS. The images have been compiled as a multi-platform image and docker desktop will automatically pull the image appropriate to your platform.
 
+- You can use jupyter notebook by using the command `run-jupyter`
+- You can use python using the command `python`
+
 ### MacOS / Linux
 - Install docker desktop (https://www.docker.com/products/docker-desktop).
 - Start the desktop client.
@@ -28,6 +31,11 @@ Run instructions with screenshots for Windows is coming soon.
 
 ## Version history
 The softwares available in each image is given below. We will keep this updated as new images are released.
+
+### Version 1.0.0 (latest)
+
+This image uses Ubuntu (kinetic-20220602) as the base OS. Other softwares installed include:
+- The issue with the alias added for commands "python" and "run-jupyter" have been fixed
 
 ### Version 1.0.0 (latest)
 

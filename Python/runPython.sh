@@ -1,5 +1,5 @@
 # Version of the image to run
-version=1.0.0
+version=latest
 
 # Local folder is set to current folder
 localfolder=${PWD}

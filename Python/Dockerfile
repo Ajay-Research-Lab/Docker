@@ -17,9 +17,4 @@ RUN pip install -r /home/requirements.txt
 # Add command for jupyter notebook
 RUN echo "alias run-jupyter='jupyter-notebook --allow-root --ip=0.0.0.0'" >> ~/.bash_aliases
 RUN . ~/.bashrc
-
-# Set the environment to root
-ENV HOME="/home"
-
-# Set work directory
-WORKDIR ${HOME}
+RUN cd /home
