@@ -16,3 +16,11 @@ The image is available through dockerhub (https://hub.docker.com/repository/dock
 ## OpenFoam v2306
 
 The image is available through dockerhub (https://hub.docker.com/repository/docker/ajaylab/openfoam). The `OpenFOAM` folder contains the information about this image and also the instructions to run this image.
+
+# Authors
+
+* Ajay B Harish
+
+# License 
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details

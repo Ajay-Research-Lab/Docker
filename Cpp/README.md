@@ -32,3 +32,11 @@ This image uses Ubuntu (kinetic-20220602) as the base OS. Other softwares instal
 - Vim editor (v9.0.242)
 - GNU gdb (v.12.1.0)
 - duf utility
+
+# Authors
+
+* Ajay B Harish
+
+# License 
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details

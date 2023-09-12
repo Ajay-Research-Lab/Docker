@@ -42,3 +42,11 @@ This image uses Ubuntu (kinetic-20220602) as the base OS. Other softwares instal
 This image uses Ubuntu (kinetic-20220602) as the base OS. Other softwares installed include:
 - Python (v3.10.7)
 - The list of python packages installed are given in requirements.txt
+
+# Authors
+
+* Ajay B Harish
+
+# License 
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
