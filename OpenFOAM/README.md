@@ -30,13 +30,14 @@ The softwares available in each image is given below. We will keep this updated 
 This image uses ajaylab/cpp docker image as the base. Over this, we have installed:
 - OpenFOAM (v2306)
 
-# Authors
+# Authors of this docker image setup
+The OpenFOAM itself is developed by OpenCFD Limited. Here we are listing only the authors who have created this image and made any contributions to the solvers added from the work done in this lab.
 
 * Ajay B Harish
 
 # License 
 
-This project is not officially licensed under the GPL v3 License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the GPL v3 License - see the [LICENSE](LICENSE) file for details.
 
 ### Disclaimer
 
