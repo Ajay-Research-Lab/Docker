@@ -1,7 +1,7 @@
 # Docker - OpenFOAM
-OpenFOAM is one of the very commonly used languages in our numerical development work. This folder contains:
+OpenFOAM is one of the commonly used packages in our work related to computational fluid dynamics (CFD) and fluid-structure interaction (FSI). This folder contains:
 - Dockerfile
-- runCpp.sh
+- runOpenFOAM.sh
 
 ## Dockerfile
 This is the docker file used to create the images. The files have been provided to enhance trust and transparency in our images. We are happy to add more packages upon request.
@@ -13,11 +13,11 @@ A run script has been provided to help easily start the image. More instructions
 - Install docker desktop (https://www.docker.com/products/docker-desktop).
 - Start the desktop client.
 - Open the terminal and navigate to the folder where you have files that you will use.
-- Change settings in the `run_______.sh` script. Primary fields include:
+- Change settings in the `runOpenFOAM.sh` script. Primary fields include:
   - `localfolder=${PWD}`: It will connect the current local folder so that the files in this folder and any sub-folders can be accessed from inside the container.
   - `version=latest`: Replace `latest` with the version of interest. If you do not change this, it will automatically pull the latest version for usage.
-- Provide execution permissions using `chmod +x run_______.sh`
-- Run the script file using `./run_______.sh`. This will start the container with root access inside Ubuntu.
+- Provide execution permissions using `chmod +x runOpenFOAM.sh`
+- Run the script file using `./runOpenFOAM.sh`. This will start the container with root access inside Ubuntu.
 
 ### Windows 
 Run instructions with screenshots for Windows is coming soon.
@@ -27,11 +27,8 @@ The softwares available in each image is given below. We will keep this updated 
 
 ### Version 1.0.0 (latest)
 
-This image uses Ubuntu (kinetic-20220602) as the base OS. Other softwares installed include:
-- GNU compiler collection (v12.2.0)
-- Vim editor (v9.0.242)
-- GNU gdb (v.12.1.0)
-- duf utility
+This image uses ajaylab/cpp docker image as the base. Over this, we have installed:
+- OpenFOAM (v2306)
 
 # Authors
 
@@ -39,4 +36,12 @@ This image uses Ubuntu (kinetic-20220602) as the base OS. Other softwares instal
 
 # License 
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is not officially licensed under the GPL v3 License - see the [LICENSE](LICENSE) file for details
+
+### Disclaimer
+
+This offering is not approved or endorsed by OpenCFD Limited, producer and distributor of the OpenFOAM software via [www.openfoam.com](https://www.openfoam.com), and owner of the OPENFOAM® and OpenCFD® trade marks.
+
+### Acknowledgement
+
+OPENFOAM® is a registered trademark of OpenCFD Limited, producer and distributor of the OpenFOAM software via [www.openfoam.com](https://www.openfoam.com).
