@@ -5,34 +5,10 @@ authors:
     family-names: Harish
     given-names: "Ajay B"
     orcid: "https://orcid.org/https://orcid.org/0000-0001-5234-7047"
-  -
-    family-names: Taylor
-    given-names: "Robert L"
-  -
-    family-names: Govindjee
-    given-names: Sanjay
 cff-version: "1.0.0"
-date-released: 2021-08-17
+date-released: 21-09-2023
 message: "If you use this software, please cite it using these metadata."
-repository-code: "https://github.com/bhajay/FEAP-AceGen"
-title: "FEAP-AceGen"
-version: "v.1.0.2"
+repository-code: "https://github.com/Ajay-Research-Lab/Docker"
+title: "Docker images"
+version: "v1.0.0-beta.1"
 ...
-
-preferred-citation:
-  type: techreport
-  authors:
-  -
-    family-names: Harish
-    given-names: "Ajay B"
-    orcid: "https://orcid.org/https://orcid.org/0000-0001-5234-7047"
-  -
-    family-names: Taylor
-    given-names: "Robert L"
-  -
-    family-names: Govindjee
-    given-names: Sanjay
-  publisher: "SEMM Report"
-  title: "Automation of user element generation for FEAP"
-  number: UCB/SEMM-2021/01
-  year: 2021
