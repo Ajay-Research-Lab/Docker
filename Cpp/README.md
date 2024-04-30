@@ -35,7 +35,7 @@ This image uses Ubuntu (kinetic-20220602) as the base OS. Other softwares instal
 
 # Authors
 
-* Ajay B Harish
+* Ajay B Harish (www.ajaylab.com)
 
 # License 
 

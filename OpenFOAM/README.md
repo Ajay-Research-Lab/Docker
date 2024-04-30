@@ -33,7 +33,7 @@ This image uses ajaylab/cpp docker image as the base. Over this, we have install
 # Authors of this docker image setup
 The OpenFOAM itself is developed by OpenCFD Limited. Here we are listing only the authors who have created this image and made any contributions to the solvers added from the work done in this lab.
 
-* Ajay B Harish
+* Ajay B Harish (ajay.harish@manchester.ac.uk)
 
 # License 
 
@@ -41,8 +41,8 @@ This project is licensed under the GPL v3 License - see the [LICENSE](LICENSE) f
 
 ### Disclaimer
 
-This offering is not approved or endorsed by OpenCFD Limited, producer and distributor of the OpenFOAM software via [www.openfoam.com](https://www.openfoam.com), and owner of the OPENFOAM® and OpenCFD® trade marks.
+This offering is not approved or endorsed by OpenCFD Limited, producer and distributor of the OpenFOAM software via [www.openfoam.com](https://www.openfoam.com), and owner of the OPENFOAM and OpenCFD trade marks.
 
 ### Acknowledgement
 
-OPENFOAM® is a registered trademark of OpenCFD Limited, producer and distributor of the OpenFOAM software via [www.openfoam.com](https://www.openfoam.com).
+OPENFOAM is a registered trademark of OpenCFD Limited, producer and distributor of the OpenFOAM software via [www.openfoam.com](https://www.openfoam.com).
