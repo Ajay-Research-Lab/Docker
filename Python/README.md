@@ -53,4 +53,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 # Others
 
-We are just trying out things.
+We are just trying out things. Lets try other things on main
